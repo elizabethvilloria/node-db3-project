@@ -62,7 +62,7 @@ const validateStep = (req, res, next) => {
 
   if (
     instructions === undefined ||
-    typeof isntructions !== 'string' ||
+    typeof instructions !== 'string' ||
     !instructions.trim() ||
     typeof step_number !== 'number' ||
     step_number < 1
